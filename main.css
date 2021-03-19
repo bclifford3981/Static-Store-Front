@@ -1,0 +1,178 @@
+body{
+    font-size: 70%;
+    font-family: monospace, sans-serif, serif;
+    background: #030a61 url("./Images/backGround.jpg") no-repeat fixed top center;
+    padding: 0px;
+    margin: 5em;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    color: white;
+    height: 100%;
+}
+header{
+    margin-right:1em;
+    background: navy url("./Images/HeaderBackground.png") center 0px;
+    width: 98%;
+    height: 300px;
+    padding: 1em;
+    position: relative;
+    align-items: center;
+    border: 2em groove 
+    
+}
+
+h1{
+    font-size: 3em;
+    margin: 0.3em;
+}
+#titleMain{
+    align-items: center;
+    margin: 0.5em 0.5em 0.5em 10em;
+    display: inline;
+}
+#TitleC{
+    font-size: 4em;
+    margin-left: 50px;
+    font-style:italic;
+}
+#TitleM{
+    font-size: 6em;
+    margin-left: 50px;
+    display: inline;
+    font-style:italic
+}
+#TitleK{
+    font-size: 6em;
+    margin: 0;
+    display: inline;
+    font-style: italic;
+}
+
+.table{
+    display:table;
+    margin: 0 auto;
+}
+ul#header-list{
+    min-width: 900px;
+    list-style: none;
+    padding-top: 20px;
+}
+ul#header-list li{
+    display: inline;
+}
+
+/* start header */
+#socialMediaGroup{
+    margin-left: 70em;
+    float: right;
+    position: absolute;
+    align-items: center;
+    display: inline;
+    margin-top: 0;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.712);
+}
+header a:link {
+    color: white;
+}
+header a:visited{
+    color: orange
+}
+header a:hover{
+    color: yellow
+}
+/* Start Switch Gif */
+#SwitchesSideBar{
+    margin-top: 1em;
+    width: 20%;
+    float: right;
+    border-style: groove;
+    border-width: 15px;
+    border-color: silver;
+    padding: 20px;
+    background-color: rgba(6, 10, 75, 0.288);
+    text-align: center;
+}
+section div.gif img.switchgif{
+    float:center;
+    padding: 5px;
+    border: 5px gold double;
+
+}
+section div.gif p.gifText{
+    font-size: 18px;
+    padding: 5px;
+}
+section div.gif h3.gifSub{
+    font-size: 25px;
+    padding: 0;
+}
+#switchTitle{
+    padding-bottom: 5px;
+    border-bottom: groove 15px silver;
+}
+#productLinks{
+    margin-top: 1em;
+    margin-left: 15%;
+    align-items: center;
+    position: absolute;
+}
+section div.panel{
+    margin: 1em;
+    width: 70%;
+    height: 30%;
+    border: silver 1em double;
+    padding: 2em;
+    background: rgb(3, 3, 56);
+    display:inline-table;
+    font-size: 20px;
+}
+section div.panel img.productType{
+    width: 300px;
+    height: 200px;
+    border: inset silver 0.5em;
+    float:right;
+}
+.leftContent{
+    float:left;
+    width: 16%;
+    height: 40%;
+   /* width:300px; */
+    border:silver 15px groove; 
+    display:inline;
+    position: absolute;
+    font-size: 1.5em;
+    color:white;
+    z-index: 2;
+    margin-top: 6em;
+    margin-right: 5em;
+}
+
+.changeA
+{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 10%;
+    width:70em;
+    height: 70em;
+    display:inline-block;
+}
+.changeB{
+    position: relative;
+    margin-top: 70px;
+    margin-left: 100%;
+    width:70em;
+    height: 70em;
+    display:inline-block;
+}  
+#navBar{
+    font-size: 18px;
+    display: inline;
+    margin-bottom: 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
